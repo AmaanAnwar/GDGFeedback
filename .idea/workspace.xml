@@ -7,7 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4636cd38-a304-4511-97f2-119c5ed1103c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/gdgapplication/FeedBackAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/gdgapplication/FeedBackAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,16 +36,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/gdgapplication/FeedBackAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+            <state relative-caret-position="57">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#525#526#0" expanded="true" />
                 <element signature="e#549#550#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/gdgapplication/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="72" column="55" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
+              <folding>
+                <element signature="e#1946#2924#0" expanded="true" />
+                <element signature="e#2923#2924#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/gdgapplication/ThankyouActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="29" column="49" lean-forward="true" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_thankyou.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -56,8 +98,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/gdgapplication/GDGFeedback.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="42">
+              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+              <folding>
+                <element signature="e#232#233#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,17 +124,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/gdgapplication/GDGFeedback.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_thankyou.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_thankyou.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/gdgapplication/ThankyouActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/gdgapplication/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_layout.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/gdgapplication/FeedBackAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/gdgapplication/GDGFeedback.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/gdgapplication/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_thankyou.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/gdgapplication/ThankyouActivity.java" />
       </list>
     </option>
   </component>
@@ -250,13 +296,21 @@
       <option name="presentableId" value="Default" />
       <updated>1581872199210</updated>
     </task>
+    <task id="LOCAL-00001" summary="After Setting Adapter">
+      <created>1581885296332</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581885296332</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="708" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" visible="true" weight="0.2159091" />
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.2159091" />
       <window_info id="Structure" side_tool="true" />
       <window_info id="Build Variants" side_tool="true" />
       <window_info id="Image Layers" />
@@ -265,15 +319,16 @@
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Run" sideWeight="0.49924242" weight="0.3298791" />
+      <window_info anchor="bottom" id="Run" sideWeight="0.49924242" weight="0.3298611" />
       <window_info anchor="bottom" id="Logcat" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="TODO" />
       <window_info anchor="bottom" id="Android Profiler" />
       <window_info anchor="bottom" id="Debug" weight="0.3298791" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5007576" side_tool="true" weight="0.3298791" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5007576" side_tool="true" weight="0.3298611" />
       <window_info anchor="bottom" id="Build" sideWeight="0.49924242" weight="0.3298791" />
+      <window_info anchor="bottom" id="Messages" weight="0.3298611" />
       <window_info anchor="right" id="Device File Explorer" side_tool="true" weight="0.32954547" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Gradle" />
@@ -282,23 +337,9 @@
       <window_info anchor="right" id="Preview" weight="0.2621212" />
     </layout>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/gdgapplication/MainActivity.java</url>
-          <line>56</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/gdgapplication/MainActivity.java</url>
-          <line>68</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="After Setting Adapter" />
+    <option name="LAST_COMMIT_MESSAGE" value="After Setting Adapter" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
@@ -316,24 +357,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_thankyou.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/gdgapplication/ThankyouActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
@@ -346,17 +369,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="6597" selection-start-line="6597" selection-end-line="6597" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/gdgapplication/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-          <folding>
-            <element signature="e#1946#2813#0" expanded="true" />
-            <element signature="e#2812#2813#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -376,13 +388,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/gdgapplication/GDGFeedback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_layout.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
@@ -391,14 +396,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_thankyou.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/gdgapplication/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="72" column="55" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
+          <folding>
+            <element signature="e#1946#2924#0" expanded="true" />
+            <element signature="e#2923#2924#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/gdgapplication/GDGFeedback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding>
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/gdgapplication/FeedBackAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        <state relative-caret-position="57">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#525#526#0" expanded="true" />
             <element signature="e#549#550#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/gdgapplication/ThankyouActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="29" column="49" lean-forward="true" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
