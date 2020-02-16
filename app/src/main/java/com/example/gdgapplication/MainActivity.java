@@ -69,6 +69,8 @@ public class MainActivity extends AppCompatActivity {
                 int rating=ratingBar.getProgress();
                 GDGFeedback gdgFeedback= new GDGFeedback(name,occupation,rating,qualificat,age,suggestion,isAgree);
                 Intent intent =new Intent(MainActivity.this,ThankyouActivity.class);
+                intent.putExtra("name",nameEdt.getText().toString());
+                intent.putExtra("feedback",gdgFeedback);
                 startActivity(intent);
             }
         });

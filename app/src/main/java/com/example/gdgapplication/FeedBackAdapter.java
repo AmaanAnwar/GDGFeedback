@@ -13,7 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-public class FeedBackAdapter extends RecyclerView.Adapter {
+public class FeedBackAdapter extends RecyclerView.Adapter <FeedBackAdapter.FeedBackViewHolder>{
     ArrayList<GDGFeedback> gdgFeedbacks ;
 
     public FeedBackAdapter(ArrayList<GDGFeedback> gdgFeedbacks, Context context) {
@@ -36,18 +36,23 @@ public class FeedBackAdapter extends RecyclerView.Adapter {
 
     @NonNull
     @Override
-    public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public FeedBackViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
       View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_layout,parent,false);
         return null;
     }
 
     @Override
-    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
+    public void onBindViewHolder(FeedBackViewHolder holder, int position) {
+         GDGFeedback gdgFeedback=gdgFeedbacks.get(position);
+         holder.rating.setText(gdgFeedback.rating);
+         holder.qualification.setText(gdgFeedback.qualification);
+         holder.name.setText((gdgFeedback.name + ", "+gdgFeedback.age).toString());
+         holder.ocupation.setText(gdgFeedback.occupation);
 
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return gdgFeedbacks.size();
     }
 }

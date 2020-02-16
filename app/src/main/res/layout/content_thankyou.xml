@@ -6,12 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".ThankyouActivity"
     tools:showIn="@layout/activity_thankyou">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Thank You"
-        android:id="@+id/thankyouTV"
-        android:textSize="30sp"
-        android:textColor="@color/colorAccent"/>
 
+    <TextView
+        android:id="@+id/thankyouTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thank You"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recylerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thankyouTV" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,6 +1,8 @@
 package com.example.gdgapplication;
 
-public class GDGFeedback {
+import java.io.Serializable;
+
+public class GDGFeedback implements Serializable {
     String name;
     String occupation;
     int rating;
