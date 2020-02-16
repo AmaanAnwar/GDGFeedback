@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GDGapplication</string>
+    <string-array name="qualification">
+        <item>Select Qualification</item>
+        <item>Higher Secondary</item>
+        <item>Graduate</item>
+        <item>Post Graduate</item>
+        <item>phd</item>
+    </string-array>
+</resources>
