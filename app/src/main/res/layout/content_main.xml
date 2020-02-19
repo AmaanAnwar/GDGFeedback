@@ -6,110 +6,84 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     tools:showIn="@layout/activity_main">
-    <LinearLayout
+
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="GDG Feedback Form"
-            android:layout_gravity="center"
-            android:textAlignment="center"
-            android:textSize="30sp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-            android:textColor="@color/colorPrimary"
-            />
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <LinearLayout
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/gdgback"></ImageView>
+
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="Bhopal Coders Community \nVIPs (Volunteer in Progress)"
+                android:textAlignment="center"
+                android:textColor="@color/md_black_1000"
+                android:textSize="20sp" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="Enter your name"
-                    android:id="@+id/nameedt"/>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Occupation"
-                        android:textSize="24sp"/>
-                    <RadioGroup
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
-                        <RadioButton
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="student"
-                            android:id="@+id/studentRB"/>
-                        <RadioButton
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Professional"
-                            android:id="@+id/profRB"/>
-                    </RadioGroup>
-                </LinearLayout>
-                <Spinner
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Bhopal Coders Community, is the backbone of the Tech Communities in Bhopal, such as Google Developers Group, Bhopal and Developer Circles from Facebook. Our efforts are aligned towards making Bhopal, a Technology Hub. We're looking for individuals enthusiastic about the Impact, Technology can bring."
+                android:textColor="@color/md_black_1000"
+                android:textSize="14sp" />
 
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/qualificationspn"
-                    android:entries="@array/qualification"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Rating" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Introducing our Volunteer in Progress(VIP) program. Sign up with your details, if you are interested about influencing people, and making more and more individuals excited about technology."
+                android:layout_marginTop="10dp"
+                android:textColor="@color/md_black_1000"
+                android:textSize="14sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="All the details must be correct. Incomplete forms will not be accepted.
+Forms with inappropriate answers will be rejected and would not be considered for submission.\nThe shortlisted candidates would be called for Personal Interview.\n\nFor any queries, text us on WhatsApp:\nSameer Khan: +918120266490"
+                android:textColor="@color/md_black_1000"
+                android:textSize="14sp" />
 
-                <RatingBar
-                    android:id="@+id/rb"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:max="5" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="suggestions"/>
-                <EditText
-                    android:id="@+id/suggest"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:minLines="5"
-                    android:maxLines="5"
-                    android:hint="Enter Suggestions"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Age"/>
-                <SeekBar
-                    android:id="@+id/seekbar"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:min="30"
-                    android:max="100"/>
-                <CheckBox
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="I agree with the terms and conditions of gdg"
-                    android:id="@+id/consentCB"/>
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Submit"
-                    android:id="@+id/submitbtn"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="100dp"
+                android:background="@drawable/btnbg"
+                android:text="Continue"
+                android:id="@+id/butn"
+                android:textColor="@color/md_white_1000" />
 
-            </LinearLayout>
 
-        </ScrollView>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-    </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

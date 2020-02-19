@@ -7,4 +7,13 @@
         <item>Post Graduate</item>
         <item>phd</item>
     </string-array>
+    <string-array name="yearofstudy">
+        <item>Select Year of Study</item>
+        <item>1st Year</item>
+        <item>2nd Year</item>
+        <item>3rd Year</item>
+        <item>4th year</item>
+        <item>5th year</item>
+        <item>Professional</item>
+    </string-array>
 </resources>
