@@ -440,7 +440,7 @@
                     android:textColor="@color/md_black_1000"
                     android:textSize="18sp"
                     android:lineHeight="50dp"
-                    android:hint="Why do you want to join VIP Programme"
+                    android:hint="Why you want to join Programme"
                     android:drawableLeft="@drawable/vip"
                     />
                 <EditText
