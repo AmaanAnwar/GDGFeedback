@@ -11,9 +11,11 @@
         android:id="@+id/thankyouTV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Thank You"
-        android:textColor="@color/colorAccent"
-        android:textSize="30sp"
+        android:text="Your Response has Been Submited successfully "
+        android:textColor="@color/md_black_1000"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
