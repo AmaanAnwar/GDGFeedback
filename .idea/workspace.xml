@@ -9,10 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4636cd38-a304-4511-97f2-119c5ed1103c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_thankyou.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_thankyou.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4636cd38-a304-4511-97f2-119c5ed1103c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +19,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_28" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="64da9a57" />
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
@@ -44,12 +41,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_form.xml">
           <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="439" column="60" lean-forward="true" selection-start-line="439" selection-start-column="60" selection-end-line="439" selection-end-column="60" />
+            <state relative-caret-position="65">
+              <caret line="442" column="50" selection-start-line="442" selection-start-column="50" selection-end-line="442" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -77,6 +74,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-805">
+              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="24" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_thankyou.xml">
           <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
@@ -86,7 +93,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_layout.xml">
           <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
@@ -145,8 +152,8 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/gdgapplication/Form.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_form.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_thankyou.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_form.xml" />
       </list>
     </option>
   </component>
@@ -354,7 +361,21 @@
       <option name="project" value="LOCAL" />
       <updated>1582109941071</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Completed Form 2.1">
+      <created>1582110267971</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582110267971</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Completed Form 2.2">
+      <created>1582110464580</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1582110464580</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -394,7 +415,9 @@
     <MESSAGE value="Complete class 16/02/2020" />
     <MESSAGE value="Completed Form" />
     <MESSAGE value="Completed Form 2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Form 2.0" />
+    <MESSAGE value="Completed Form 2.1" />
+    <MESSAGE value="Completed Form 2.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Form 2.2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Android/Sdk/sources/android-29/android/view/View.java">
@@ -462,14 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="24" selection-end-column="60" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -481,14 +496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_form.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="439" column="60" lean-forward="true" selection-start-line="439" selection-start-column="60" selection-end-line="439" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -542,6 +549,22 @@
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-805">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="24" selection-end-column="60" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_form.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="442" column="50" selection-start-line="442" selection-start-column="50" selection-end-line="442" selection-end-column="50" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
