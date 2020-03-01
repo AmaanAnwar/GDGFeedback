@@ -6,6 +6,12 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints" ></androidx.constraintlayout.widget.ConstraintLayout>
+
     <TextView
         android:textStyle="bold"
         android:id="@+id/nameTV"
@@ -42,6 +48,7 @@
         android:text="Rating"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
 
 

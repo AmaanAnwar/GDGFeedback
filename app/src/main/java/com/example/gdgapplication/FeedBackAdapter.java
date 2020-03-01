@@ -29,10 +29,10 @@ public class FeedBackAdapter extends RecyclerView.Adapter <FeedBackAdapter.FeedB
             TextView name , ocupation,qualification,rating;
          public FeedBackViewHolder(@NonNull View itemView) {
              super(itemView);
-             name=itemView.findViewById(R.id.nameTV);
-             ocupation=itemView.findViewById(R.id.occupationTV);
-             qualification=itemView.findViewById(R.id.qualificationTV);
-             rating=itemView.findViewById(R.id.ratingTV);
+           name=itemView.findViewById(R.id.nameTV);
+           //  ocupation=itemView.findViewById(R.id.occupationTV);
+         //    qualification=itemView.findViewById(R.id.qualificationTV);
+           //  rating=itemView.findViewById(R.id.ratingTV);
          }
      }
 
@@ -46,10 +46,10 @@ public class FeedBackAdapter extends RecyclerView.Adapter <FeedBackAdapter.FeedB
     @Override
     public void onBindViewHolder(FeedBackViewHolder holder, int position) {
          GDGFeedback gdgFeedback=gdgFeedbacks.get(position);
-         holder.rating.setText(gdgFeedback.rating+"");
-         holder.qualification.setText(gdgFeedback.qualification);
-         holder.name.setText((gdgFeedback.name + ", "+gdgFeedback.age).toString());
-         holder.ocupation.setText(gdgFeedback.occupation);
+        // holder.rating.setText(gdgFeedback.rating+"");
+     //    holder.qualification.setText(gdgFeedback.qualification);
+       //holder.name.setText((gdgFeedback.name + ", "+gdgFeedback.age).toString());
+      //   holder.ocupation.setText(gdgFeedback.occupation);
 
     }
 

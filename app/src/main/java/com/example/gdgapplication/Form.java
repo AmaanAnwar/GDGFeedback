@@ -26,32 +26,32 @@ public class Form extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_form);
-      /*  nameEdt = (EditText) findViewById(R.id.nameedt);
-        submitBtn = (Button)findViewById(R.id.submitbtn);
+      nameEdt = (EditText) findViewById(R.id.editText);
+        submitBtn = (Button)findViewById(R.id.sbmtbtm);
         submitBtn.setOnClickListener(new View.OnClickListener(){
                                          @Override
                                          public void onClick(View view){
 
                                              Intent i = new Intent(Form.this,ThankyouActivity.class);
-                                             i.putExtra("name",nameEdt.getText().toString());
+                                             //i.putExtra("name",nameEdt.getText().toString());
                                              startActivity(i);
                                          }
                                      }
         );
 
 
-        ratingBar = findViewById(R.id.rb);
-        qualification =findViewById(R.id.qualificationspn);
-        studentRB =findViewById(R.id.studentRB);
-        profRB=findViewById(R.id.profRB);
-        suggesyionET =findViewById(R.id.suggest);
-        ageSB=findViewById(R.id.seekbar);
-        agreeSB =findViewById(R.id.consentCB);
+      //  ratingBar = findViewById(R.id.rb);
+     //   qualification =findViewById(R.id.qualificationspn);
+      //  studentRB =findViewById(R.id.studentRB);
+      //  profRB=findViewById(R.id.profRB);
+      //  suggesyionET =findViewById(R.id.suggest);
+       // ageSB=findViewById(R.id.seekbar);
+      //  agreeSB =findViewById(R.id.consentCB);
         submitBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String name= nameEdt.getText().toString();
-                String suggestion=suggesyionET.getText().toString();
+               /* String suggestion=suggesyionET.getText().toString();
                 String qualificat = qualification.getSelectedItem().toString();
                 String occupation = "Not Selected";
                 if(studentRB.isChecked()){
@@ -62,13 +62,13 @@ public class Form extends AppCompatActivity {
                 }
                 int age = ageSB.getProgress();
                 boolean isAgree = agreeSB.isChecked();
-                int rating=ratingBar.getProgress();
-                GDGFeedback gdgFeedback= new GDGFeedback(name,occupation,rating,qualificat,age,suggestion,isAgree);
+                int rating=ratingBar.getProgress();*/
+               // GDGFeedback gdgFeedback= new GDGFeedback(name,occupation,rating,qualificat,age,suggestion,isAgree);
                 Intent intent =new Intent(Form.this,ThankyouActivity.class);
-                intent.putExtra("name",nameEdt.getText().toString());
-                intent.putExtra("feedback",gdgFeedback);
+              intent.putExtra("name",nameEdt.getText().toString());
+              //  intent.putExtra("feedback",gdgFeedback);
                 startActivity(intent);
             }
-        });*/
+        });
     }
 }
